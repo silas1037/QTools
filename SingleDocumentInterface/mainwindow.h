@@ -85,7 +85,7 @@ private slots:
     void about();
     void documentWasModified();
 
-private:
+public:
     enum { MaxRecentFiles = 5 };
 
     void init();

@@ -4,7 +4,7 @@ background-color: rgb(0, 0, 0);
 }
 QToolTip{
   color:#ffffff;
-  background-color:palette(base);
+  background-color:#000000;
   border:1px solid palette(highlight);
   border-radius:4px;
 }
@@ -272,7 +272,7 @@ QTreeView::branch:open:has-children:has-siblings{
   border-image:none;
   image:url(:/darkstyle/icon_branch_open.png);
 }
-QScrollBar:vertical{
+/*QScrollBar:vertical{
   background:palette(base);
   border-top-right-radius:2px;
   border-bottom-right-radius:2px;
@@ -325,7 +325,7 @@ QScrollBar::sub-line:horizontal{
   width:0px;
   subcontrol-position:top;
   subcontrol-origin:margin;
-}
+}*/
 QSlider::handle:horizontal{
   border-radius:4px;
   border:1px solid rgba(25,25,25,255);

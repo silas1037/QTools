@@ -85,5 +85,9 @@ int main(int argc, char *argv[])
       qfDarkstyle.close();
     }
 
+    if(argc>1){
+        mainWin.openFile(argv[1]);
+    }
+
     return app.exec();
 }
